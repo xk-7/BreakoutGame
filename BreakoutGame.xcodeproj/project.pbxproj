@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5638EAD62C53CF51006F95D2 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5638EAD52C53CF51006F95D2 /* AudioManager.swift */; };
 		5638EADA2C53DF2A006F95D2 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5638EAD92C53DF2A006F95D2 /* background.mp3 */; };
+		5638EADE2C552D9E006F95D2 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5638EADD2C552D9E006F95D2 /* MemoryGameView.swift */; };
+		5638EAE02C552F87006F95D2 /* MatchThreeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5638EADF2C552F87006F95D2 /* MatchThreeGameView.swift */; };
 		566EB57C2C52AC4100949C9E /* BreakoutGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EB57B2C52AC4100949C9E /* BreakoutGameApp.swift */; };
 		566EB57E2C52AC4100949C9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EB57D2C52AC4100949C9E /* ContentView.swift */; };
 		566EB5802C52AC4200949C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566EB57F2C52AC4200949C9E /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		5638EAD52C53CF51006F95D2 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		5638EAD92C53DF2A006F95D2 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		5638EADD2C552D9E006F95D2 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		5638EADF2C552F87006F95D2 /* MatchThreeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchThreeGameView.swift; sourceTree = "<group>"; };
 		566EB5782C52AC4100949C9E /* BreakoutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakoutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566EB57B2C52AC4100949C9E /* BreakoutGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakoutGameApp.swift; sourceTree = "<group>"; };
 		566EB57D2C52AC4100949C9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				566EB5A52C52AC5F00949C9E /* GameSelectionView.swift */,
 				566EB5A72C52AC8200949C9E /* BreakoutGameView.swift */,
 				5638EAD52C53CF51006F95D2 /* AudioManager.swift */,
+				5638EADD2C552D9E006F95D2 /* MemoryGameView.swift */,
+				5638EADF2C552F87006F95D2 /* MatchThreeGameView.swift */,
 			);
 			path = BreakoutGame;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				566EB5A62C52AC5F00949C9E /* GameSelectionView.swift in Sources */,
+				5638EADE2C552D9E006F95D2 /* MemoryGameView.swift in Sources */,
 				566EB57E2C52AC4100949C9E /* ContentView.swift in Sources */,
 				566EB57C2C52AC4100949C9E /* BreakoutGameApp.swift in Sources */,
 				5638EAD62C53CF51006F95D2 /* AudioManager.swift in Sources */,
+				5638EAE02C552F87006F95D2 /* MatchThreeGameView.swift in Sources */,
 				566EB5A82C52AC8200949C9E /* BreakoutGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

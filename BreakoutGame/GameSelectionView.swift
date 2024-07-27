@@ -13,12 +13,10 @@ struct GameSelectionView: View {
             VStack {
                 Text("Select a Game")
                     .font(.largeTitle)
-                    .fontWeight(.bold)
                     .padding()
                 
                 NavigationLink(destination: BreakoutGameView()) {
-                    Text("Play Breakout")
-                        .font(.headline)
+                    Text("Breakout Game")
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(.white)
@@ -26,9 +24,23 @@ struct GameSelectionView: View {
                 }
                 .padding()
                 
-                // 可以在这里添加更多游戏选项
+                NavigationLink(destination: MemoryGameView()) {
+                    Text("Memory Game")
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
                 
-                Spacer()
+                NavigationLink(destination: MatchThreeGameView()) {
+                    Text("Match Three Game")
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
             }
         }
     }
@@ -39,4 +51,5 @@ struct GameSelectionView_Previews: PreviewProvider {
         GameSelectionView()
     }
 }
+
 
